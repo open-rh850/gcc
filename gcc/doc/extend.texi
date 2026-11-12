@@ -8774,7 +8774,8 @@ which can hold up to 64 kilobytes.
 This attribute applies to variables.
 
 Use it to explicitly place a variable in the tiny data area,
-which can hold up to 256 bytes in total.
+which can hold up to 256 bytes in total.  It is not supported with
+@option{-mrh850-abi}.
 
 @atindex @code{zda}, V850
 @item zda
